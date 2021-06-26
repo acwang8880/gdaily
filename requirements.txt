@@ -1,0 +1,11 @@
+certifi==2021.5.30
+chardet==4.0.0
+click==7.1.2
+genshinstats==1.4.3
+idna==2.10
+pipdeptree==2.0.0
+PyYAML==5.4.1
+requests==2.25.1
+tabulate==0.8.9
+typer==0.3.2
+urllib3==1.26.5

@@ -2,6 +2,7 @@ from tabulate import tabulate
 import typer
 import genshinstats as gs
 import yaml
+from pathlib import Path
 
 # for i in gs.get_wish_history():
 #     print(f"{i['time']} - {i['name']} ({i['rarity']}* {i['type']})")
@@ -22,7 +23,8 @@ print(daily_reward_info)
 print(claim_daily_result)
 """
 
-config_path = "./credentials.yml"
+package_dir = Path(__file__).parent.absolute()
+config_path = package_dir.joinpath("credentials.yml")
 
 with open(config_path) as f:
     user_configs = yaml.load(f, Loader=yaml.FullLoader)

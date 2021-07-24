@@ -1,8 +1,11 @@
 #/bin/sh
 
-PYTHON=/home/cptbirdy/.virtualenvs/genshin/bin/python3
-SCRIPT=/home/cptbirdy/proj/personal/genshin/genshin_login.py
-LOG=/tmp/.trash/genshin.log
+PYTHON="/home/cptbirdy/.virtualenvs/genshin/bin/python3"
+SCRIPT="/home/cptbirdy/proj/personal/genshin/genshin_login.py"
+LOG_DIR="/tmp/.trash/"
+LOG="$LOG_DIR/genshin.log"
+
+mkdir -p $LOG_DIR
 
 date > $LOG
 $PYTHON $SCRIPT 2>&1 >> $LOG

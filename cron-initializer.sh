@@ -1,5 +1,7 @@
 #/bin/sh
 
+set -euo pipefail
+
 PYTHON="/home/cptbirdy/.virtualenvs/genshin/bin/python3"
 SCRIPT="/home/cptbirdy/proj/personal/genshin/genshin_login.py"
 LOG_DIR="/tmp/.trash/"

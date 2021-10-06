@@ -3,7 +3,7 @@
 ### TODO:
 - [x] Yaml reader
 - [] Typer integration
-- [] Python packaging with setuptools?
+- [] Python packaging with setuptools/poetry?
 - [] Use loguru and direct towards a log file
 - [] Fix cron script
 - [] Project management with poetry

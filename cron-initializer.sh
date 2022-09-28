@@ -2,7 +2,7 @@
 
 PYTHON="/home/cptbirdy/.virtualenvs/genshin/bin/python3"
 SCRIPT="/home/cptbirdy/proj/personal/genshin/genshin_login.py"
-LOG_DIR="/tmp/.trash/"
+LOG_DIR="/tmp"
 LOG="$LOG_DIR/genshin.log"
 
 mkdir -p $LOG_DIR
